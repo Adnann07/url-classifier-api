@@ -104,11 +104,3 @@ def index():
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
-```
-
-**`requirements.txt`**
-```
-flask==3.0.0
-flask-cors==4.0.0
-tensorflow==2.15.0
-numpy==1.26.0
